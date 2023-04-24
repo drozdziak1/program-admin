@@ -6,9 +6,9 @@ from pathlib import Path
 from typing import Any, Dict, List, Literal, Tuple
 
 from loguru import logger
-from solana import system_program
-from solana.keypair import Keypair
-from solana.publickey import PublicKey
+from solders import system_program
+from solders.keypair import Keypair
+from solders.publickey import PublicKey
 from solana.rpc.async_api import AsyncClient
 from solana.rpc.commitment import Commitment
 from solana.rpc.types import TxOpts

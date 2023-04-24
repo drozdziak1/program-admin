@@ -5,7 +5,8 @@ from tempfile import NamedTemporaryFile, TemporaryDirectory
 
 import pytest
 import ujson as json
-from solana.publickey import PublicKey
+import solders
+from solders.publickey import PublicKey
 
 from program_admin import ProgramAdmin
 from program_admin.parsing import (
